@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="com.example.huuphuc.demomvp.Views.MainActivity">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_textColorHint="@color/colorPrimary"
+        android:hint="Nhap username"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Username"
+        android:id="@+id/txtUserName"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:met_textColorHint="@color/colorPrimary"
+        android:hint="Nhap password"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Username"
+        android:id="@+id/txtPassword"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDangNhap"
+        android:text="Login"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancel"
+        android:text="Cancel"
+        />
+
+</LinearLayout>
